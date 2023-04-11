@@ -12,8 +12,8 @@ image:
 
 
 
-#global:
-#  namespace: devcloud
+global:
+  namespace: devcloud
   
 itm:
   clusterAPIAddress: "https://api.cfa.devcloud.intel.com:6443"
