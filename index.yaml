@@ -1,0 +1,36 @@
+apiVersion: v1
+entries:
+  social-distancing:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-02-14T17:05:00.9320011+05:30"
+    description: A Helm chart for Kubernetes
+    digest: de6e70a0c2f487e3f39f946e75f8e602ab395ef6d38a88edc24592388ee9ec1d
+    name: social-distancing
+    type: application
+    urls:
+    - social-distancing.tgz
+    version: 0.1.0
+  social-distancing-retail:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-02-14T17:05:00.9287828+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 12d0c3e91ecb5bb118615e2f029a7fbbe7efa757744849b45ff1b2f6dea3deb3
+    name: social-distancing-retail
+    type: application
+    urls:
+    - social-distancing-retail.tgz
+    version: 0.1.0
+  wireless-ready-itm:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-02-14T17:05:00.925474+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 51997c042d1c819d4c1479f100e0abf8f1fd688f6b8e2911c0b3e928632a2a28
+    name: wireless-ready-itm
+    type: application
+    urls:
+    - itm-https.tgz
+    version: 0.1.0
+generated: "2023-02-14T17:05:00.925474+05:30"
