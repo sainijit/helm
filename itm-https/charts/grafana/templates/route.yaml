@@ -8,4 +8,4 @@ spec:
     kind: Service
     name: grafana
   port:
-    targetPort: {{ .Values.route.targetPort }}
+    targetPort: 3000

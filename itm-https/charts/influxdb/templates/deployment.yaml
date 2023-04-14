@@ -33,5 +33,5 @@ spec:
       volumes:
         - name: persistent
           persistentVolumeClaim:
-            claimName: {{ template "itm.fullname" . }}
+            claimName: TestClaim
 
