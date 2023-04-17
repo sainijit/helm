@@ -5,3 +5,13 @@ metadata:
   namespace: {{ .Values.global.namespace }}
 data:
 {{ (.Files.Glob "configs/*").AsConfig | indent 2 }}
+
+--
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: itm-config
+  namespace: {{ .Values.global.namespace }}
+data:
+{{ (.Files.Glob "configs/*").AsConfig | indent 2 }}
